@@ -1,0 +1,5 @@
+﻿{
+  "NancySeverOptions": {
+    "BaseUrl": "http://localhost:6006"
+  }
+}
