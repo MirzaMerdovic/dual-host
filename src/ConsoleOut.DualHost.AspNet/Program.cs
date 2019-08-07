@@ -18,7 +18,7 @@ namespace ConsoleOut.DualHost.AspNet
                 .ConfigureHostConfiguration(configHost =>
                 {
                     configHost.SetBasePath(Directory.GetCurrentDirectory());
-                    configHost.AddJsonFile("hostsettings.json", optional: true);
+                    configHost.AddJsonFile("hostsettings.json");
                 })
                 .ConfigureServices((hostContext, configSvc) =>
                 {

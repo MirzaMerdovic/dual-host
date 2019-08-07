@@ -1,5 +1,6 @@
 ﻿{
-  "NancySeverOptions": {
-    "BaseUrl": "http://localhost:6006"
+  "KestrelOptions": {
+    "Ip": "127.0.0.1",
+    "Port": 6006
   }
 }
