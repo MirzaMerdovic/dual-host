@@ -1,18 +1,17 @@
-﻿using ConsoleOut.DualHost.AspNet.Services;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace ConsoleOut.DualHost.AspNet
+namespace ConsoleOut.DualHost.AspNet30
 {
     internal class HealthCheckMiddleware
     {
         private readonly RequestDelegate _next;
-        private readonly IHealthService _health;
+        private readonly Services.IHealthService _health;
         private readonly ILogger _logger;
 
-        public HealthCheckMiddleware(RequestDelegate next, IHealthService health, ILogger<HealthCheckMiddleware> logger)
+        public HealthCheckMiddleware(RequestDelegate next, Services.IHealthService health, ILogger<HealthCheckMiddleware> logger)
         {
             _next = next;
             _health = health;

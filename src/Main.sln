@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleOut.DualHost.AspNet"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleOut.DualHost.Nancy", "ConsoleOut.DualHost.Nancy\ConsoleOut.DualHost.Nancy.csproj", "{A5867C55-0541-43D6-BE92-BD76AE9A479C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleOut.DualHost.AspNet30", "ConsoleOut.DualHost.AspNet30\ConsoleOut.DualHost.AspNet30.csproj", "{E669F9D0-8EC9-4238-B4E4-1BDA013C78E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A5867C55-0541-43D6-BE92-BD76AE9A479C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5867C55-0541-43D6-BE92-BD76AE9A479C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5867C55-0541-43D6-BE92-BD76AE9A479C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E669F9D0-8EC9-4238-B4E4-1BDA013C78E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E669F9D0-8EC9-4238-B4E4-1BDA013C78E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E669F9D0-8EC9-4238-B4E4-1BDA013C78E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E669F9D0-8EC9-4238-B4E4-1BDA013C78E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
