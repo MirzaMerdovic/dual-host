@@ -3,7 +3,6 @@ using ConsoleOut.DualHost.AspNet30.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
 using System.Threading.Tasks;
 
 namespace ConsoleOut.DualHost.AspNet30
